@@ -1,22 +1,20 @@
 "use client"
 import SEO from "@/components/data/seo";
-import HeaderOne from "@/components/layout/headers/header/header-one";
-import BreadCrumb from "../../common/breadcrumb";
 import TeamMain from "./team";
-import FooterOne from "@/components/layout/footers/footer-one";
+import Footer from "@/components/layout/footers/footer";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
+import HeaderWeb from "@/components/layout/headers/web-header/header";
 
-const TeamPage = () => {
+const TeamPageTwo = () => {
     return (
         <>
-            <SEO pageTitle='Our Team' />
-            <HeaderOne />
-            <BreadCrumb title='Our Team' innerTitle='Our Team'/>
+            <SEO pageTitle='Team Two' />
+            <HeaderWeb />
             <TeamMain />
-            <FooterOne />
+            <Footer />
             <ScrollToTop />
         </>
     );
 };
 
-export default TeamPage;
+export default TeamPageTwo;

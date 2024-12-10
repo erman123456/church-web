@@ -7,12 +7,12 @@ import team6 from "../../public/assets/img/team/team-6.jpg";
 
 const teamData = [
     {
-        id: 'derya-kurtulus',
+        id: 'arto',
         image: team1,
-        name: 'Derya Kurtulus',
-        position: 'Heating Expert',
-        mail: 'derya@gmail.com',
-        phone: '+125 (564) 656 156',
+        name: 'Arto Pasaribu',
+        position: 'Ketua BPH',
+        mail: 'arto@gmail.com',
+        phone: '+628 126 813 7084',
         category: 'founder',
         social_link: [
             { link: 'https://linkedin.com', target: '_blank', icon: <i className="fab fa-linkedin-in"></i> },
@@ -21,12 +21,12 @@ const teamData = [
         ],
     },
     {
-        id: 'steve-rhodes',
+        id: 'Efika-Sianturi',
         image: team2,
-        name: 'Steve Rhodes',
-        position: 'Senior Manager',
-        mail: 'rhodes@gmail.com',
-        phone: '+125 (261) 564 232',
+        name: 'Efika Sianturi',
+        position: 'Sekretaris BPH',
+        mail: 'efika@gmail.com',
+        phone: '+628 126 813 7084',
         category: 'writer',
         social_link: [
             { link: 'https://twitter.com', target: '_blank', icon: <i className="fa-brands fa-x-twitter"></i> },

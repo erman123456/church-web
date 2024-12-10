@@ -1334,6 +1334,10 @@ a:hover {
 /*==========================================================================
 * Form CSS
 ==========================================================================*/
+.active {
+  background-color: inherit;
+  font-weight: bold;
+}
 button,
 input[type=button],
 input[type=reset],
